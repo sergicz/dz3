@@ -43,4 +43,8 @@ models:
       sats:
         tags:
           - 'satellite'
+    bi:
+      tags:
+        - 'bi'
+      materialized: view
 
